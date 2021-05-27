@@ -1,0 +1,125 @@
+/* Feito por Rafael Soares */
+
+.container{
+max-width: 1670px; 
+margin: auto;
+}
+
+.footer{
+    background-color: #ff914d;
+    padding: 1% ;
+    
+   
+}
+.rowSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footerSection{
+width: 18%;
+padding: 40px;
+
+}
+
+.footerSection h4 ,h2{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.footerSection h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+    
+}
+.footerSection h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.footerSection img {
+    width: 40%;
+    position: relative;
+    bottom: 20px;
+    
+    
+}
+
+.footerSection p{
+    font-size: 10px;
+}
+
+.footerSection ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footerSection ul li a{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footerSection ul li a:hover{
+    color: black;
+    padding-left: 8px;
+
+}
+
+.footerSection .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease
+
+}
+
+.footerSection .social-links a:hover{
+    color:#24262b;
+    background-color: #ffffffff;
+}
+
+
+
+
+
+
+
+
+
+
