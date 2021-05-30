@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sora;
+    
+}
+
+.retirar{
+    width: 100vw;
+    height: 88px;
+    padding: 0px;
+    background-color: #ff914d;
+}
+/*----------------------------main-----------*/
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    background-color: #f5f6fa;
+    width: 100vw; 
+    height: 100%;
+}
+.coluna1{
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+}
+.coluna2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5%;
+    margin-top: 1%;
+    border-radius: 2%;
+    font-size: 18px;
+}
+.boxes h2{
+    align-self: flex-start;
+    
+}
+.icone-texto{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.icone-texto p{
+    margin-left: 3%;
+}
+.paragrafo2{
+    margin-top: 1%;
+
+}
+.coluna1 p{
+    font-size: 18px;
+}
+
+/*-----------------------------Contato -------------------------*/
+.main-contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-color:#ff914d;
+    
+}
+.parte1{
+    background-color:#ff914d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start ;
+    background-color:#ff914d;
+    font-size: 20px;
+    margin-left: 3%;
+    font-family: Sora;
+
+    
+    
+    
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    font-size: 18px;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    margin-top: 6%;
+}
+label{
+    margin-left: 1%;
+}
+.enviar{
+    margin-left: 40%;
+    margin-bottom: 1%;
+    width: 10vw;
+    height: 5vh;
+    cursor: pointer;
+    
+    }
+.enviar:hover{
+    background-color:#ff914d ;
+}
+.dados{
+    border: 2px solid  #f5f6fa;
+    border-radius: 10%;
+    margin-left: 1%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    background-color: #f5f6fa;
+}
+   
+.topo{
+    margin-top: 1%;
+    
+}
+.duvida{
+    height: 20vh;
+}
+
+/*--------------------------------------celular--------------------------*/
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    body{
+        width: 420px;
+    }
+    .about-us{
+        width: 500px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+        margin-left: 15%;
+        height: 80%;
+        margin-bottom: 2%;
+    }
+    .main-contato{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        background-color:#ff914d ;
+    }
+    .dados{
+        margin-bottom: 3% ;
+        margin-left: 5%;
+        height: 100%;
+        padding: 5%;
+    }
+    input{
+        width: 70%;
+    }
+    .enviar{
+        width: 30%;
+    }
+}
+/*------------------------------------Nosso time--------------*/
+.nosso-time{
+    background-color:#ff914d ;
+    
+    
+
+}
+.texto-time{
+    text-align: center;
+    margin-top: 2%;
+}
+.texto-time p{
+    margin-top: 2%;
+    font-size: 18px;
+}
+.fotos{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    justify-self: center;
+    align-self: center;
+}
+.linkedin{
+    width: 15%;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.linkedin:hover{
+    opacity: 0.6;
+}
+.membros{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    
+}
+.membro1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 2%;
+    background-color:#f5f6fa ;
+    width: 30%;
+    height: 50%;
+    
+}
+.membro1 h2{
+    margin-top: 1%;
+    justify-self: center;
+    align-self: center;
+}
+.membro1 p{
+    justify-self: center;
+    align-self: center;
+}
+.membro1 a{
+    justify-self: center;
+    align-self: center;
+    margin-left: 50%;
+}
